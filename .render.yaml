@@ -3,3 +3,4 @@ services:
     name: platform-crane-frontend
     staticPublishPath: build
     buildCommand: yarn build
+    plan: free
