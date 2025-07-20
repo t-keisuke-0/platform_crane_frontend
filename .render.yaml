@@ -1,6 +1,5 @@
 services:
-  - type: web
+  - type: static
     name: platform-crane-frontend
-    env: static
     staticPublishPath: build
     buildCommand: yarn build
