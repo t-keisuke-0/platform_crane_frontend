@@ -12,7 +12,7 @@ const App: React.FC = () => {
     setLoading(true);
     setResponse(null);
     try {
-      const res = await fetch("/api/echo", {
+      const res = await fetch("https://platform-crane.onrender.com/api/echo", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text: input }),

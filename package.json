@@ -29,7 +29,6 @@
       "react-app/jest"
     ]
   },
-  "proxy": "https://platform-crane.onrender.com",
   "browserslist": {
     "production": [
       ">0.2%",
